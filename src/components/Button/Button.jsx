@@ -1,8 +1,9 @@
+import { Children } from 'react'
 import './Button.css'
 
 const Button = (props) => {
 	return (
-		<button {...props} className={'button'}>Button</button>
+		<button {...props} className={'button'}>{props.children}</button>
 	)
 }
 
