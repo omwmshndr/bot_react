@@ -1,5 +1,5 @@
+import Button from '../Button/Button'
 import './ProductItem.css'
-import { Button } from '../Button/Button'
 
 const ProductItem = ({ product, className, onAdd }) => {
 	const onAddHandler = () => {
